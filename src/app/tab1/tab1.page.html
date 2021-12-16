@@ -1,7 +1,7 @@
 <ion-header [translucent]="true">
   <ion-toolbar>
     <ion-title>
-      Tab 1
+      Our Famous Displays
     </ion-title>
   </ion-toolbar>
 </ion-header>
@@ -9,9 +9,53 @@
 <ion-content [fullscreen]="true">
   <ion-header collapse="condense">
     <ion-toolbar>
-      <ion-title size="large">Tab 1</ion-title>
+      <ion-title size="large">Our Famous Displays</ion-title>
     </ion-toolbar>
   </ion-header>
+  
+  <ion-button (click)="myAction()" href="/upcoming" expand="full">Upcoming Exihibitions</ion-button>
 
-  <app-explore-container name="Tab 1 page"></app-explore-container>
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle style="color:maroon">Sculptor: Gian Lorenzo Bernini</ion-card-subtitle>
+      <ion-card-title><b>ECSTASY OF SAINT TERESA</b></ion-card-title>
+    </ion-card-header>
+    <img src="assets/images/teresa.png" style="border-radius: 15px;" alt="image">
+    <ion-card-content>
+      Saint Teresa of Avila was a Spanish nun who claimed to have experienced divine visions in which she would suddenly feel consumed by the love of God, feel the bodily presence of Christ or of angels, and be lifted to an exalted state of ecstasy. She described these visions in her writings.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle style="color:maroon">Sculptor: Michelangelo</ion-card-subtitle>
+      <ion-card-title><b>PIETA</b></ion-card-title>
+    </ion-card-header>
+    <img src="assets/images/pieta.png" style="border-radius: 15px;"  alt="image">
+    <ion-card-content>
+      Michelangelo, active during the Renaissance, is widely regarded as the most influential sculptor of all time. He was just 24 at the time of completion of the Pieta, which was soon regarded as one of the world’s great masterpieces of sculpture.
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle style="color:maroon">Sculptor: Thutmose</ion-card-subtitle>
+      <ion-card-title><b>Bust of Nefertiti</b></ion-card-title>
+    </ion-card-header>
+    <img src="assets/images/nefertiti.png" style="border-radius: 15px;"  alt="image">
+    <ion-card-content>
+      This portrait has been a symbol of feminine beauty since it was first unearthed in 1912 within the ruins of Amarna, the capital city built by the most controversial Pharaoh of Ancient Egyptian history: Akhenaten. Ascending the throne as Amenhotep IV, Akhenaten changed his name as part of his decision to overturn the established pantheon of Egyptian gods to start his own a religion
+    </ion-card-content>
+  </ion-card>
+
+  <ion-card>
+    <ion-card-header>
+      <ion-card-subtitle style="color:maroon">Sculptor: Auguste Rodin</ion-card-subtitle>
+      <ion-card-title><b>The Burghers of Calais</b></ion-card-title>
+    </ion-card-header>
+    <img src="assets/images/auguste.png" style="border-radius: 15px;" alt="image">
+    <ion-card-content>
+      While most people associate the great French sculptor Auguste Rodin with The Thinker, this ensemble commemorating an incident during the Hundred Years' War (1337–1453) between Britain and France is more important to the history of sculpture.
+    </ion-card-content>
+  </ion-card>
 </ion-content>
